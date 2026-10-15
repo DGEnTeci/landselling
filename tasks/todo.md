@@ -129,16 +129,16 @@
   - **Archivos:** `src/components/sections/InvestmentValueSection.tsx`, `PurchaseSteps.tsx`, `TestimonialsSection.tsx`, `tests/unit/investment-testimonials.test.tsx`.
   - **Verificación:** `npm test tests/unit/investment-testimonials.test.tsx`.
 
-- [ ] **Task 12: Blog / Insights y Datos Estructurados SEO**
+- [x] **Task 12: Blog / Insights y Datos Estructurados SEO**
   - **Descripción:** Implementar `BlogInsightsSection` con 3 artículos clave sobre compra de tierras en Colombia, y componentes SEO JSON-LD (`RealEstateAgent` y `Product`).
   - **Criterios de Aceptación:**
     - Artículos con tiempo de lectura, fecha, categoría y vista previa.
     - JSON-LD válido generado en el HTML para indexación rica en Google.
-  - **Archivos:** `src/components/sections/BlogInsightsSection.tsx`, `src/components/seo/RealEstateJsonLd.tsx`.
-  - **Verificación:** `npm test`.
+  - **Archivos:** `src/components/sections/BlogInsightsSection.tsx`, `src/components/seo/StructuredData.tsx`, `tests/unit/blog-seo.test.tsx`.
+  - **Verificación:** `npm test tests/unit/blog-seo.test.tsx`.
 
 ### 🚩 Checkpoint 4: Landing Page Completa
-- [ ] Todas las 9 secciones conceptuales renderizadas y sincronizadas en `page.tsx`.
+- [x] Todas las 9 secciones conceptuales renderizadas y sincronizadas en `page.tsx`.
 
 ---
 

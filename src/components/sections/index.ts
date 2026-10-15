@@ -6,3 +6,4 @@ export * from './PropertyCategories';
 export * from './InvestmentValueSection';
 export * from './PurchaseSteps';
 export * from './TestimonialsSection';
+export * from './BlogInsightsSection';

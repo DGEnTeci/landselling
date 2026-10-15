@@ -12,9 +12,11 @@ import {
   InvestmentValueSection,
   PurchaseSteps,
   TestimonialsSection,
+  BlogInsightsSection,
 } from '@/components/sections';
 import { PropertyDetailModal } from '@/components/properties/PropertyDetailModal';
 import { ContactLeadModal, WhatsAppFloatingButton } from '@/components/contact';
+import { StructuredData } from '@/components/seo/StructuredData';
 import { PropertyFilterState, INITIAL_FILTER_STATE } from '@/types/filter';
 import { Property, PropertyCategorySlug } from '@/types/property';
 
@@ -50,7 +52,7 @@ export default function HomePage() {
     setIsContactModalOpen(true);
   };
 
-  // Apertura general desde el botón CTA "Empezar" del Header o CtaBanner
+  // Apertura general desde el botón CTA "Empezar", CtaBanner, PurchaseSteps o Blog
   const handleOpenGeneralContact = () => {
     setContactProperty(null);
     setIsContactModalOpen(true);
@@ -68,10 +70,13 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-cream-50 text-forest-950 font-sans selection:bg-emerald/20 selection:text-emerald-dark">
+      {/* Datos Estructurados SEO Schema.org (RealEstateAgent, ItemList, Blog) */}
+      <StructuredData />
+
       {/* Header de Navegación Sticky con Drawer Móvil */}
       <Header onGetStartedClick={handleOpenGeneralContact} />
 
-      {/* Contenido Principal con Jerarquía Narrativa Fluida */}
+      {/* Contenido Principal con las 9 Secciones Conceptuales Completas */}
       <main className="flex-1">
         {/* 1. Sección Hero con Buscador Rápido Integrado */}
         <Hero onSearch={handleFilterChange} />
@@ -93,14 +98,17 @@ export default function HomePage() {
         {/* 5. Categorías de Propiedades con Filtrado Directo */}
         <PropertyCategories onSelectCategory={handleSelectCategory} />
 
-        {/* 6. Sección de Inversión y Plusvalía Patrimonial (Task 11) */}
+        {/* 6. Sección de Inversión y Plusvalía Patrimonial */}
         <InvestmentValueSection />
 
-        {/* 7. Pasos de Compra y Acompañamiento Notarial (Task 11) */}
+        {/* 7. Pasos de Compra y Acompañamiento Notarial */}
         <PurchaseSteps onRequestContact={handleOpenGeneralContact} />
 
-        {/* 8. Testimonios de Clientes e Inversionistas Verificados (Task 11) */}
+        {/* 8. Testimonios de Clientes e Inversionistas Verificados */}
         <TestimonialsSection />
+
+        {/* 9. Blog e Insights con Modal de Lectura Completa (Task 12) */}
+        <BlogInsightsSection onRequestContact={handleOpenGeneralContact} />
       </main>
 
       {/* Modal de Ficha Técnica Completa (Task 8) */}
