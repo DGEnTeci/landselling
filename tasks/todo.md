@@ -87,7 +87,7 @@
   - **Archivos:** `src/components/properties/PropertyCard.tsx`, `src/components/sections/FeaturedProperties.tsx`, `tests/unit/catalog.test.tsx`.
   - **Verificación:** `npm test tests/unit/catalog.test.tsx`.
 
-- [ ] **Task 8: Modal de Ficha Técnica Completa (`PropertyDetailModal`)**
+- [x] **Task 8: Modal de Ficha Técnica Completa (`PropertyDetailModal`)**
   - **Descripción:** Modal interactivo para ver la ficha detallada del lote seleccionado: galería, topografía, servicios disponibles (agua, luz, vías), escrituración y descripción completa.
   - **Criterios de Aceptación:**
     - Ficha técnica exhaustiva y visualmente estructurada.

@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { Hero } from '@/components/sections/Hero';
 import { FeaturedProperties } from '@/components/sections/FeaturedProperties';
+import { PropertyDetailModal } from '@/components/properties/PropertyDetailModal';
 import { PropertyFilterState, INITIAL_FILTER_STATE } from '@/types/filter';
 import { Property } from '@/types/property';
 
@@ -25,7 +26,15 @@ export default function HomePage() {
 
   const handleSelectProperty = (property: Property) => {
     setSelectedProperty(property);
-    // Task 8 abrirá la ficha técnica modal PropertyDetailModal
+  };
+
+  const handleCloseDetailModal = () => {
+    setSelectedProperty(null);
+  };
+
+  const handleRequestContact = (property: Property) => {
+    // Puente hacia ContactLeadModal (Task 9)
+    console.log('Solicitud de contacto para propiedad:', property.id);
   };
 
   return (
@@ -46,6 +55,14 @@ export default function HomePage() {
           onSelectProperty={handleSelectProperty}
         />
       </main>
+
+      {/* Modal de Ficha Técnica Completa (Task 8) */}
+      <PropertyDetailModal
+        isOpen={!!selectedProperty}
+        onClose={handleCloseDetailModal}
+        property={selectedProperty}
+        onRequestContact={handleRequestContact}
+      />
 
       {/* Footer Editorial con Newsletter y Normativas Colombianas */}
       <Footer />
