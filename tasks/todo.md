@@ -25,19 +25,20 @@
   - **Archivos:** `src/types/property.ts`, `src/types/filter.ts`, `src/data/properties.json`, `src/data/categories.json`, `src/data/testimonials.json`, `src/data/articles.json`.
   - **Verificación:** `npx tsc --noEmit`.
 
-- [ ] **Task 3: Formateadores y utilidades de filtrado (TDD)**
+- [x] **Task 3: Formateadores y utilidades de filtrado (TDD)**
   - **Descripción:** Implementar con pruebas unitarias TDD los formateadores de COP, áreas ($ha$ / $m^2$), desinfección de teléfonos colombianos, generador de URLs de WhatsApp y motor de filtros.
   - **Criterios de Aceptación:**
     - `formatCOP` formatea números como `$ 450.000.000 COP`.
     - `formatAreaSurface` formatea `1.5 ha (15.000 m²)`.
     - `generateWhatsAppPropertyUrl` genera enlaces válidos de wa.me con mensaje pre-rellenado.
     - Motor de filtros filtra por palabra clave, categoría, rango de precio y ordenamiento.
-  - **Archivos:** `src/lib/formatters.ts`, `src/lib/filters.ts`, `src/lib/whatsapp.ts`, `tests/unit/formatters.test.ts`, `tests/unit/filters.test.ts`.
+  - **Archivos:** `src/lib/formatters.ts`, `src/lib/filters.ts`, `src/lib/whatsapp.ts`, `tests/unit/formatters.test.ts`, `tests/unit/filters.test.ts`, `tests/unit/whatsapp.test.ts`.
   - **Verificación:** `npm test`.
 
 ### 🚩 Checkpoint 1: Cimientos Verificados
-- [ ] Pruebas unitarias de formateadores y filtros al 100% en verde.
-- [ ] TypeScript estricto sin errores.
+- [x] Pruebas unitarias de formateadores y filtros al 100% en verde.
+- [x] TypeScript estricto sin errores.
+
 
 ---
 
