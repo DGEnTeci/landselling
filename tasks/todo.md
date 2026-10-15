@@ -62,7 +62,7 @@
   - **Archivos:** `src/components/layout/Header.tsx`, `src/components/layout/Footer.tsx`, `tests/unit/layout.test.tsx`.
   - **Verificación:** `npm test tests/unit/layout.test.tsx`.
 
-- [ ] **Task 6: Sección Hero con Buscador Rápido Integrado**
+- [x] **Task 6: Sección Hero con Buscador Rápido Integrado**
   - **Descripción:** Diseñar el Hero principal con titular de alto impacto, subtítulo descriptivo, métrica social (+10.000 clientes felices) y componente `QuickSearchBox` reactivo.
   - **Criterios de Aceptación:**
     - Imagen de fondo de alta calidad optimizada con `priority`.
@@ -72,8 +72,8 @@
   - **Verificación:** `npm test tests/unit/hero.test.tsx`.
 
 ### 🚩 Checkpoint 2: Navegación y Hero Verificados
-- [ ] Header, Hero y Footer navegables y responsivos.
-- [ ] Buscador integrado interactivo.
+- [x] Header, Hero y Footer navegables y responsivos.
+- [x] Buscador integrado interactivo.
 
 ---
 
