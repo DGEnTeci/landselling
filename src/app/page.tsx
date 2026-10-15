@@ -77,7 +77,7 @@ export default function HomePage() {
       <Header onGetStartedClick={handleOpenGeneralContact} />
 
       {/* Contenido Principal con las 9 Secciones Conceptuales Completas */}
-      <main className="flex-1">
+      <main id="main-content" tabIndex={-1} className="flex-1 focus:outline-none">
         {/* 1. Sección Hero con Buscador Rápido Integrado */}
         <Hero onSearch={handleFilterChange} />
 

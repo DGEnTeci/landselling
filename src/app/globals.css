@@ -10,14 +10,26 @@
 
   body {
     @apply bg-cream-50 text-slate-900 font-sans antialiased;
-    selection-background-color: #059669;
-    selection-color: #ffffff;
   }
 
-  /* Reducir movimiento si el usuario lo prefiere */
+  /* Estilos consistentes de alto contraste para foco accesible */
+  :focus-visible {
+    @apply outline-none ring-2 ring-emerald ring-offset-2;
+  }
+
+  /* Reducir movimiento estrictamente para usuarios con sensibilidad vestibular (WCAG 2.1) */
   @media (prefers-reduced-motion: reduce) {
     html {
-      scroll-behavior: auto;
+      scroll-behavior: auto !important;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
     }
   }
 }

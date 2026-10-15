@@ -144,13 +144,13 @@
 
 ## Fase 5: Rendimiento, Accesibilidad y Documentación
 
-- [ ] **Task 13: Auditoría de Accesibilidad, Rendimiento y Pruebas Globales**
+- [x] **Task 13: Auditoría de Accesibilidad, Rendimiento y Pruebas Globales**
   - **Descripción:** Revisión de contrastes, atributos aria, SkipLink ("saltar al contenido"), optimización de imágenes (`next/image`) y suite global de pruebas.
   - **Criterios de Aceptación:**
-    - 100% de suites de pruebas pasando en Vitest.
-    - Cero advertencias de TypeScript.
+    - 100% de suites de pruebas pasando en Vitest (129 pruebas en verde).
+    - Cero advertencias de TypeScript (`npx tsc --noEmit`).
     - Compilación de producción limpia con `npm run build`.
-  - **Archivos:** `src/app/page.tsx`, `src/app/layout.tsx`, `src/components/layout/SkipLink.tsx`.
+  - **Archivos:** `src/app/page.tsx`, `src/app/layout.tsx`, `src/components/layout/SkipLink.tsx`, `tests/unit/accessibility-audit.test.tsx`.
   - **Verificación:** `npm run build` y `npm test`.
 
 - [ ] **Task 14: Documentación y Guía de Despliegue (`README.md`)**
