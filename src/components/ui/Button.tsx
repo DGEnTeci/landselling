@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 
-export type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'gold' | 'ghost';
+export type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'gold' | 'ghost' | 'forest';
 export type ButtonSize = 'sm' | 'md' | 'lg';
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -15,6 +15,8 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 const variantStyles: Record<ButtonVariant, string> = {
   primary:
     'bg-emerald text-white hover:bg-emerald-hover active:bg-emerald-dark focus-visible:ring-emerald shadow-sm',
+  forest:
+    'bg-forest-900 text-cream-50 hover:bg-forest-800 active:bg-forest-950 focus-visible:ring-forest-700 shadow-sm',
   secondary:
     'bg-cream-200 text-forest-900 hover:bg-cream-300 active:bg-cream-300 focus-visible:ring-forest-800',
   outline:

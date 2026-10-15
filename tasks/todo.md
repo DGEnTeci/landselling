@@ -53,7 +53,7 @@
   - **Archivos:** `src/components/ui/Button.tsx`, `Badge.tsx`, `Modal.tsx`, `Input.tsx`, `Select.tsx`, `Container.tsx`, `tests/unit/components.test.tsx`.
   - **Verificación:** `npm test tests/unit/components.test.tsx`.
 
-- [ ] **Task 5: Header de Navegación y Footer Editorial**
+- [x] **Task 5: Header de Navegación y Footer Editorial**
   - **Descripción:** Construir la barra de navegación responsive (logo `LandSelling.com`, enlaces a secciones, botón "Empezar", drawer móvil) y el Footer con categorías, newsletter y avisos legales.
   - **Criterios de Aceptación:**
     - Header sticky con efecto de vidrio (backdrop-blur) al hacer scroll.
