@@ -44,7 +44,7 @@
 
 ## Fase 2: Componentes UI Base, Header y Hero
 
-- [ ] **Task 4: Componentes UI Base y Sistema de Diseño**
+- [x] **Task 4: Componentes UI Base y Sistema de Diseño**
   - **Descripción:** Crear componentes primitivos accesibles y reutilizables: `Button`, `Badge`, `Modal`, `Input`, `Select`, `Container`.
   - **Criterios de Aceptación:**
     - Botones con objetivos táctiles mínimos de 44px.
