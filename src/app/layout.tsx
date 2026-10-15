@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import { SkipLink } from '@/components/layout/SkipLink';
+import { SITE_CONFIG } from '@/config/site';
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -10,7 +11,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://landselling.com'),
+  metadataBase: new URL(SITE_CONFIG.siteUrl),
   title: {
     default: 'LandSelling.com — Terrenos y Lotes Exclusivos en Colombia | Inversión Segura',
     template: '%s | LandSelling.com',
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: 'LandSelling.com — Terrenos y Lotes Exclusivos en Colombia',
     description:
       'Descubre parcelas campestres, fincas y terrenos comerciales con títulos verificados al 100% en las regiones de mayor plusvalía de Colombia.',
-    url: 'https://landselling.com',
+    url: SITE_CONFIG.siteUrl,
     siteName: 'LandSelling.com',
     locale: 'es_CO',
     type: 'website',

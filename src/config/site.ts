@@ -1,11 +1,15 @@
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://landselling.com';
+const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '573000000000';
+
 export const SITE_CONFIG = {
   name: 'LandSelling',
-  domain: 'LandSelling.com',
+  domain: siteUrl.replace(/^https?:\/\//, '').replace(/\/$/, ''),
+  siteUrl,
   tagline: 'Encuentra tu Inversión de Terreno Perfecta en Colombia',
   description:
     'Plataforma líder en comercialización de lotes campestres, terrenos residenciales, agrícolas e industriales con verificación legal y acompañamiento experto.',
   contact: {
-    whatsappNumber: '573000000000', // Demostración segura
+    whatsappNumber,
     phoneDisplay: '+57 300 000 0000',
     email: 'contacto@landselling.com',
     address: 'Edificio Torre Empresarial, Carrera 7 # 116-50, Bogotá D.C., Colombia',
