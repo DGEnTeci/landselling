@@ -34,6 +34,11 @@ export const Modal: React.FC<ModalProps> = ({
   const [mounted, setMounted] = useState(false);
   const modalRef = useRef<HTMLDivElement>(null);
   const previousActiveElement = useRef<HTMLElement | null>(null);
+  const onCloseRef = useRef(onClose);
+
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [onClose]);
 
   const titleId = useId();
   const descriptionId = useId();
@@ -42,7 +47,7 @@ export const Modal: React.FC<ModalProps> = ({
     setMounted(true);
   }, []);
 
-  // Manejo de foco, tecla Escape y bloqueo de scroll
+  // Manejo de foco, tecla Escape y bloqueo de scroll al abrir/cerrar el modal
   useEffect(() => {
     if (!isOpen) return;
 
@@ -50,11 +55,15 @@ export const Modal: React.FC<ModalProps> = ({
     const originalOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
 
-    // Foco automático en el contenedor del modal o en el primer elemento interactivo
+    // Foco automático inicial al abrir el modal (solo si el foco no está ya dentro)
     const timer = setTimeout(() => {
       if (modalRef.current) {
+        if (modalRef.current.contains(document.activeElement)) {
+          return;
+        }
+
         const focusable = modalRef.current.querySelectorAll<HTMLElement>(
-          'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+          'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
         );
         if (focusable.length > 0) {
           focusable[0].focus();
@@ -67,7 +76,7 @@ export const Modal: React.FC<ModalProps> = ({
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
         event.preventDefault();
-        onClose();
+        onCloseRef.current();
         return;
       }
 
@@ -105,7 +114,7 @@ export const Modal: React.FC<ModalProps> = ({
         previousActiveElement.current.focus();
       }
     };
-  }, [isOpen, onClose]);
+  }, [isOpen]);
 
   if (!isOpen || !mounted) {
     return null;

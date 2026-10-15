@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Property } from '@/types/property';
 import { Modal } from '@/components/ui/Modal';
 import { Button } from '@/components/ui/Button';
@@ -117,7 +117,7 @@ export const ContactLeadModal: React.FC<ContactLeadModalProps> = ({
     }, 400);
   };
 
-  const handleResetAndClose = () => {
+  const handleResetAndClose = useCallback(() => {
     setIsSuccess(false);
     setFormData({
       fullName: '',
@@ -129,7 +129,7 @@ export const ContactLeadModal: React.FC<ContactLeadModalProps> = ({
     });
     setErrors({});
     onClose();
-  };
+  }, [onClose]);
 
   const selectedInquiryLabel =
     INQUIRY_OPTIONS.find((opt) => opt.value === formData.inquiryType)?.label ||

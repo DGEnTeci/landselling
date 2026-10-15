@@ -182,6 +182,34 @@ describe('Task 9: Modal de Captación de Leads y Botón Flotante de WhatsApp', (
 
       vi.useRealTimers();
     });
+
+    it('mantiene el foco en el campo de texto al introducir datos letra por letra sin robar el foco hacia el botón de cerrar', () => {
+      vi.useFakeTimers();
+      render(<ContactLeadModal isOpen={true} onClose={vi.fn()} property={mockProperty} />);
+
+      // Avanzar temporizador inicial de apertura
+      act(() => {
+        vi.advanceTimersByTime(100);
+      });
+
+      const nameInput = screen.getByLabelText(/nombre completo/i);
+      nameInput.focus();
+      expect(document.activeElement).toBe(nameInput);
+
+      // Escribir letra por letra simulando la interacción real del usuario
+      const textToType = 'Carlos';
+      let currentVal = '';
+      for (const char of textToType) {
+        currentVal += char;
+        fireEvent.change(nameInput, { target: { value: currentVal } });
+        act(() => {
+          vi.advanceTimersByTime(60);
+        });
+        expect(document.activeElement).toBe(nameInput);
+      }
+
+      vi.useRealTimers();
+    });
   });
 
   /* ------------------------------------------------------------------
