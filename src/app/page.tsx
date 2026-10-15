@@ -3,12 +3,17 @@
 import React, { useState } from 'react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { Hero } from '@/components/sections/Hero';
-import { FeaturedProperties } from '@/components/sections/FeaturedProperties';
+import {
+  Hero,
+  BenefitsSection,
+  FeaturedProperties,
+  CtaBanner,
+  PropertyCategories,
+} from '@/components/sections';
 import { PropertyDetailModal } from '@/components/properties/PropertyDetailModal';
 import { ContactLeadModal, WhatsAppFloatingButton } from '@/components/contact';
 import { PropertyFilterState, INITIAL_FILTER_STATE } from '@/types/filter';
-import { Property } from '@/types/property';
+import { Property, PropertyCategorySlug } from '@/types/property';
 
 export default function HomePage() {
   const [filters, setFilters] = useState<PropertyFilterState>(INITIAL_FILTER_STATE);
@@ -42,7 +47,7 @@ export default function HomePage() {
     setIsContactModalOpen(true);
   };
 
-  // Apertura general desde el botón CTA "Empezar" del Header
+  // Apertura general desde el botón CTA "Empezar" del Header o CtaBanner
   const handleOpenGeneralContact = () => {
     setContactProperty(null);
     setIsContactModalOpen(true);
@@ -53,23 +58,37 @@ export default function HomePage() {
     setContactProperty(null);
   };
 
+  // Conexión funcional desde PropertyCategories hacia FeaturedProperties
+  const handleSelectCategory = (categorySlug: PropertyCategorySlug) => {
+    handleFilterChange({ categorySlug });
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-cream-50 text-forest-950 font-sans selection:bg-emerald/20 selection:text-emerald-dark">
-      {/* Header de Navegación Sticky con Drawer Móvil y callback de CTA Empezar */}
+      {/* Header de Navegación Sticky con Drawer Móvil */}
       <Header onGetStartedClick={handleOpenGeneralContact} />
 
-      {/* Contenido Principal */}
+      {/* Contenido Principal con Jerarquía Narrativa Fluida */}
       <main className="flex-1">
-        {/* Sección Hero con Buscador Rápido Integrado (Fuente Única de Verdad) */}
+        {/* 1. Sección Hero con Buscador Rápido Integrado */}
         <Hero onSearch={handleFilterChange} />
 
-        {/* Catálogo de Propiedades Destacadas con Filtros en Tiempo Real (Task 7) */}
+        {/* 2. Sección de Beneficios / ¿Por qué elegir LandSelling.com? */}
+        <BenefitsSection />
+
+        {/* 3. Catálogo de Propiedades Destacadas con Filtros en Tiempo Real */}
         <FeaturedProperties
           filters={filters}
           onFilterChange={handleFilterChange}
           onResetFilters={handleResetFilters}
           onSelectProperty={handleSelectProperty}
         />
+
+        {/* 4. Banner Intermedio de Conversión */}
+        <CtaBanner onRequestContact={handleOpenGeneralContact} />
+
+        {/* 5. Categorías de Propiedades con Filtrado Directo */}
+        <PropertyCategories onSelectCategory={handleSelectCategory} />
       </main>
 
       {/* Modal de Ficha Técnica Completa (Task 8) */}
@@ -80,14 +99,14 @@ export default function HomePage() {
         onRequestContact={handleRequestContact}
       />
 
-      {/* Modal de Captación de Leads y Asesoría (Task 9 - Checkpoint 3) */}
+      {/* Modal de Captación de Leads y Asesoría (Task 9) */}
       <ContactLeadModal
         isOpen={isContactModalOpen}
         onClose={handleCloseContactModal}
         property={contactProperty}
       />
 
-      {/* Botón Flotante Persistente de WhatsApp (Task 9) */}
+      {/* Botón Flotante Persistente de WhatsApp */}
       <WhatsAppFloatingButton />
 
       {/* Footer Editorial con Newsletter y Normativas Colombianas */}

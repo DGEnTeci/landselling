@@ -111,14 +111,14 @@
 
 ## Fase 4: Secciones de Confianza, Educación y Valor
 
-- [ ] **Task 10: Beneficios, Categorías y Banner de Conversión Intermedio**
+- [x] **Task 10: Beneficios, Categorías y Banner de Conversión Intermedio**
   - **Descripción:** Implementar `BenefitsSection` (4 pilares), `PropertyCategories` (tarjetas visuales de tipos de lote) y `CtaBanner` ("Tu terreno ideal está a solo un clic").
   - **Criterios de Aceptación:**
     - Iconografía minimalista en beneficios.
     - Categorías conducen a filtrar automáticamente el catálogo.
     - Banner de alto contraste con botón de llamada a la acción.
-  - **Archivos:** `src/components/sections/BenefitsSection.tsx`, `PropertyCategories.tsx`, `CtaBanner.tsx`.
-  - **Verificación:** `npm test` y renderizado visual.
+  - **Archivos:** `src/components/sections/BenefitsSection.tsx`, `PropertyCategories.tsx`, `CtaBanner.tsx`, `tests/unit/sections-phase4.test.tsx`.
+  - **Verificación:** `npm test tests/unit/sections-phase4.test.tsx`.
 
 - [ ] **Task 11: Sección de Inversión y Pasos de Compra con Testimonios**
   - **Descripción:** Implementar `InvestmentValueSection` (beneficios financieros de la tierra), `PurchaseSteps` (3 pasos simples) y carrusel/grid de `Testimonials`.
