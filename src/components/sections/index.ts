@@ -3,3 +3,6 @@ export * from './FeaturedProperties';
 export * from './BenefitsSection';
 export * from './CtaBanner';
 export * from './PropertyCategories';
+export * from './InvestmentValueSection';
+export * from './PurchaseSteps';
+export * from './TestimonialsSection';

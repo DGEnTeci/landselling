@@ -9,6 +9,9 @@ import {
   FeaturedProperties,
   CtaBanner,
   PropertyCategories,
+  InvestmentValueSection,
+  PurchaseSteps,
+  TestimonialsSection,
 } from '@/components/sections';
 import { PropertyDetailModal } from '@/components/properties/PropertyDetailModal';
 import { ContactLeadModal, WhatsAppFloatingButton } from '@/components/contact';
@@ -89,6 +92,15 @@ export default function HomePage() {
 
         {/* 5. Categorías de Propiedades con Filtrado Directo */}
         <PropertyCategories onSelectCategory={handleSelectCategory} />
+
+        {/* 6. Sección de Inversión y Plusvalía Patrimonial (Task 11) */}
+        <InvestmentValueSection />
+
+        {/* 7. Pasos de Compra y Acompañamiento Notarial (Task 11) */}
+        <PurchaseSteps onRequestContact={handleOpenGeneralContact} />
+
+        {/* 8. Testimonios de Clientes e Inversionistas Verificados (Task 11) */}
+        <TestimonialsSection />
       </main>
 
       {/* Modal de Ficha Técnica Completa (Task 8) */}

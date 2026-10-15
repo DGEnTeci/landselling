@@ -120,14 +120,14 @@
   - **Archivos:** `src/components/sections/BenefitsSection.tsx`, `PropertyCategories.tsx`, `CtaBanner.tsx`, `tests/unit/sections-phase4.test.tsx`.
   - **Verificación:** `npm test tests/unit/sections-phase4.test.tsx`.
 
-- [ ] **Task 11: Sección de Inversión y Pasos de Compra con Testimonios**
+- [x] **Task 11: Sección de Inversión y Pasos de Compra con Testimonios**
   - **Descripción:** Implementar `InvestmentValueSection` (beneficios financieros de la tierra), `PurchaseSteps` (3 pasos simples) y carrusel/grid de `Testimonials`.
   - **Criterios de Aceptación:**
     - Métricas de plusvalía y comparativa de inversión.
     - Pasos numerados del 1 al 3 con descripciones claras.
     - Testimonios con calificación en estrellas, ubicación y fotografía del cliente.
-  - **Archivos:** `src/components/sections/InvestmentValueSection.tsx`, `PurchaseSteps.tsx`, `TestimonialsSection.tsx`.
-  - **Verificación:** `npm test`.
+  - **Archivos:** `src/components/sections/InvestmentValueSection.tsx`, `PurchaseSteps.tsx`, `TestimonialsSection.tsx`, `tests/unit/investment-testimonials.test.tsx`.
+  - **Verificación:** `npm test tests/unit/investment-testimonials.test.tsx`.
 
 - [ ] **Task 12: Blog / Insights y Datos Estructurados SEO**
   - **Descripción:** Implementar `BlogInsightsSection` con 3 artículos clave sobre compra de tierras en Colombia, y componentes SEO JSON-LD (`RealEstateAgent` y `Product`).
