@@ -95,7 +95,7 @@
   - **Archivos:** `src/components/properties/PropertyDetailModal.tsx`, `tests/unit/property-detail-modal.test.tsx`.
   - **Verificación:** `npm test tests/unit/property-detail-modal.test.tsx`.
 
-- [ ] **Task 9: Modal de Captación de Leads y Enlace Directo a WhatsApp**
+- [x] **Task 9: Modal de Captación de Leads y Enlace Directo a WhatsApp**
   - **Descripción:** Modal de formulario web para prospectos interesados (`ContactLeadModal`) con validación de teléfono colombiano (`^3\d{9}$`), nombre y correo, más botón flotante persistente de WhatsApp.
   - **Criterios de Aceptación:**
     - Validación accesible en tiempo real de campos obligatorios.
@@ -105,7 +105,7 @@
   - **Verificación:** `npm test tests/unit/contact-modal.test.tsx`.
 
 ### 🚩 Checkpoint 3: Catálogo y Conversión Verificados
-- [ ] Flujo completo de búsqueda, inspección de lote y captación de contacto operativo.
+- [x] Flujo completo de búsqueda, inspección de lote y captación de contacto operativo.
 
 ---
 
