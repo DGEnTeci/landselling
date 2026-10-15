@@ -79,13 +79,13 @@
 
 ## Fase 3: Catálogo de Terrenos, Filtros y Modales de Conversión
 
-- [ ] **Task 7: Catálogo de Propiedades Destacadas con Filtros en Tiempo Real**
+- [x] **Task 7: Catálogo de Propiedades Destacadas con Filtros en Tiempo Real**
   - **Descripción:** Implementar `PropertyCard` y la sección `FeaturedProperties` con tabs de categorías y filtros por precio/orden.
   - **Criterios de Aceptación:**
     - Tarjetas con imagen optimizada, badges de estado, ubicación, superficie (ha / m²) y precio destacado.
     - Contador dinámico de propiedades encontradas y estado vacío amigable si no hay coincidencias.
-  - **Archivos:** `src/components/properties/PropertyCard.tsx`, `src/components/sections/FeaturedProperties.tsx`, `tests/unit/property-card.test.tsx`.
-  - **Verificación:** `npm test tests/unit/property-card.test.tsx`.
+  - **Archivos:** `src/components/properties/PropertyCard.tsx`, `src/components/sections/FeaturedProperties.tsx`, `tests/unit/catalog.test.tsx`.
+  - **Verificación:** `npm test tests/unit/catalog.test.tsx`.
 
 - [ ] **Task 8: Modal de Ficha Técnica Completa (`PropertyDetailModal`)**
   - **Descripción:** Modal interactivo para ver la ficha detallada del lote seleccionado: galería, topografía, servicios disponibles (agua, luz, vías), escrituración y descripción completa.
