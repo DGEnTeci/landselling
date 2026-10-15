@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "residencial",
+    "name": "Terreno Residencial",
+    "description": "Lotes campestres y urbanos ideales para construir tu casa de descanso o vivienda principal en conjuntos cerrados o parcelaciones privadas.",
+    "count": 18,
+    "iconName": "Home",
+    "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1000&auto=format&fit=crop",
+    "idealFor": "Vivienda campestre, descanso familiar y condominios cerrados."
+  },
+  {
+    "slug": "comercial",
+    "name": "Terreno Comercial",
+    "description": "Lotes con frente a vías principales y corredores de alto flujo vehicular, aptos para estaciones, centros logísticos, bodegas o ecoturismo.",
+    "count": 9,
+    "iconName": "Building2",
+    "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000&auto=format&fit=crop",
+    "idealFor": "Desarrollo comercial, bodegas, estaciones de servicio y hotelería."
+  },
+  {
+    "slug": "agricola",
+    "name": "Terreno Agrícola",
+    "description": "Fincas y parcelas fértiles con fuentes hídricas permanentes, aptas para cultivos de exportación, ganadería sostenible o agroindustria.",
+    "count": 14,
+    "iconName": "Trees",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1000&auto=format&fit=crop",
+    "idealFor": "Café especial, aguacate hass, cítricos, ganadería y bosques maderables."
+  },
+  {
+    "slug": "inversion",
+    "name": "Terreno de Inversión",
+    "description": "Macrolotes en zonas de expansión urbana y proyección de valorización acelerada por nuevas vías 4G y desarrollos de infraestructura.",
+    "count": 12,
+    "iconName": "TrendingUp",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1000&auto=format&fit=crop",
+    "idealFor": "Plusvalía patrimonial a mediano plazo y proyectos de parcelación futura."
+  }
+]

@@ -17,7 +17,7 @@
   - **Verificación:** `npm run build` y `npm test`.
 
 
-- [ ] **Task 2: Modelos de datos y catálogo de propiedades**
+- [x] **Task 2: Modelos de datos y catálogo de propiedades**
   - **Descripción:** Crear interfaces TypeScript en `src/types/` y datos estructurados en `src/data/` para lotes, categorías, artículos y testimonios colombianos.
   - **Criterios de Aceptación:**
     - Tipos estrictos para `Property`, `Location`, `Features`, `Category`, `Testimonial`, `Article`.

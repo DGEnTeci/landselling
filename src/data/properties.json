@@ -1,0 +1,422 @@
+[
+  {
+    "id": "prop-01",
+    "slug": "reserva-el-roble-la-calera",
+    "title": "Lote Campestre Reserva El Roble",
+    "shortDescription": "Espectacular lote con vista panorámica al embalse San Rafael y bosque nativo en parcelación privada de alta seguridad.",
+    "fullDescription": "Ubicado a tan solo 25 minutos del norte de Bogotá sobre la vía La Calera - Sopó. Lote campestre en parcelación exclusiva con portería 24/7, vías internas pavimentadas y senderos ecológicos. Cuenta con punto de agua de acueducto veredal, acometida eléctrica subterránea y disponibilidad de fibra óptica. Topografía con explanación natural lista para construir casa campestre de ensueño.",
+    "categorySlug": "residencial",
+    "categoryName": "Terreno Residencial",
+    "location": {
+      "department": "Cundinamarca",
+      "municipality": "La Calera",
+      "veredaOrSector": "Vereda El Salitre, Sector El Roble",
+      "distanceFromMainCity": "25 min de Bogotá",
+      "altitudeMeters": 2750
+    },
+    "areaHectares": 0.5,
+    "areaSquareMeters": 5000,
+    "priceCOP": 620000000,
+    "pricePerSquareMeterCOP": 124000,
+    "pricePerHectareCOP": 1240000000,
+    "topography": "ondulada_suave",
+    "topographyLabel": "Ondulada Suave con Explanación",
+    "accessRoad": "pavimentada",
+    "accessRoadLabel": "Vía Pavimentada",
+    "utilities": {
+      "waterSource": "Acueducto veredal con contador instalado",
+      "hasElectricity": true,
+      "hasWater": true,
+      "hasInternetFiber": true,
+      "gasType": "Gas propano / red veredal"
+    },
+    "legal": {
+      "deedStatus": "Escritura pública 100%",
+      "hasIndependentFolio": true,
+      "freeOfEncumbrances": true,
+      "potLandUse": "Vivienda campestre individual (POT La Calera)"
+    },
+    "featured": true,
+    "status": "en_venta",
+    "statusLabel": "En Venta",
+    "imageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "highlights": [
+      "Vista despejada al embalse",
+      "Explanación de 600 m² lista",
+      "Portería y vigilancia 24h",
+      "Servicios públicos al pie del lote"
+    ],
+    "tags": ["Campestre", "Alta Seguridad", "Fibra Óptica", "Cerca a Bogotá"]
+  },
+  {
+    "id": "prop-02",
+    "slug": "parcela-altos-de-llanogrande",
+    "title": "Parcela Premium Altos de Llanogrande",
+    "shortDescription": "Terreno plano de alta valorización en el sector más exclusivo del Oriente Antioqueño, rodeado de pinos y jardines.",
+    "fullDescription": "Situado en el corazón de Llanogrande, a solo 8 minutos del Aeropuerto Internacional José María Córdova y del Hospital San Vicente Fundación. Terreno 100% plano, cercado en seto vivo de eugenias y con ingreso directo por vía adoquinada. Cuenta con transformador eléctrico independiente, pozo profundo de agua potable certificado y gas natural domiciliario.",
+    "categorySlug": "residencial",
+    "categoryName": "Terreno Residencial",
+    "location": {
+      "department": "Antioquia",
+      "municipality": "Rionegro",
+      "veredaOrSector": "Llanogrande, Sector Tres Puertas",
+      "distanceFromMainCity": "35 min de Medellín por Túnel de Oriente",
+      "altitudeMeters": 2125
+    },
+    "areaHectares": 0.35,
+    "areaSquareMeters": 3500,
+    "priceCOP": 1150000000,
+    "pricePerSquareMeterCOP": 328571,
+    "pricePerHectareCOP": 3285710000,
+    "topography": "plana",
+    "topographyLabel": "100% Plana",
+    "accessRoad": "pavimentada",
+    "accessRoadLabel": "Pavimento & Adoquín",
+    "utilities": {
+      "waterSource": "EPM + Pozo profundo concesionado",
+      "hasElectricity": true,
+      "hasWater": true,
+      "hasInternetFiber": true,
+      "gasType": "Gas Natural EPM"
+    },
+    "legal": {
+      "deedStatus": "Escritura pública al 100% al día",
+      "hasIndependentFolio": true,
+      "freeOfEncumbrances": true,
+      "potLandUse": "Residencial de baja densidad (Rionegro)"
+    },
+    "featured": true,
+    "status": "en_venta",
+    "statusLabel": "En Venta",
+    "imageUrl": "https://images.unsplash.com/photo-1500076656116-558758c991c1?q=80&w=1200&auto=format&fit=crop",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1500076656116-558758c991c1?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "highlights": [
+      "Topografía 100% aprovechable",
+      "A 8 minutos del Aeropuerto JMC",
+      "Gas natural y fibra óptica EPM",
+      "Sector de mayor plusvalía de Antioquia"
+    ],
+    "tags": ["Llanogrande", "Oriente Antioqueño", "Terreno Plano", "Alta Plusvalía"]
+  },
+  {
+    "id": "prop-03",
+    "slug": "hacienda-la-esperanza-puerto-lopez",
+    "title": "Hacienda Agrícola y Ganadera La Esperanza",
+    "shortDescription": "Extensa finca de 45 hectáreas con pastos mejorados, nacedero de agua y caño veraniego permanente en el Meta.",
+    "fullDescription": "Extraordinaria oportunidad productiva en los Llanos Orientales, sobre el corredor agroindustrial Villavicencio - Puerto López. Terreno apto para ganadería intensiva, cultivo de palma de aceite, soya, maíz o proyectos de reforestación comercial y créditos de carbono. Dispone de corral de manejo en tubería, báscula ganadera, casa de mayordomo y energía eléctrica trifásica.",
+    "categorySlug": "agricola",
+    "categoryName": "Terreno Agrícola",
+    "location": {
+      "department": "Meta",
+      "municipality": "Puerto López",
+      "veredaOrSector": "Vereda La Venturosa",
+      "distanceFromMainCity": "45 min de Villavicencio",
+      "altitudeMeters": 365
+    },
+    "areaHectares": 45,
+    "areaSquareMeters": 450000,
+    "priceCOP": 1800000000,
+    "pricePerSquareMeterCOP": 4000,
+    "pricePerHectareCOP": 40000000,
+    "topography": "plana",
+    "topographyLabel": "Sabana Plana y Fértil",
+    "accessRoad": "carreteable_afirmado",
+    "accessRoadLabel": "Vía Pavimentada + 3km Afirmado",
+    "utilities": {
+      "waterSource": "Caño permanente, nacedero propio y aljibe",
+      "hasElectricity": true,
+      "hasWater": true,
+      "hasInternetFiber": false,
+      "gasType": "Gas en pipeta"
+    },
+    "legal": {
+      "deedStatus": "Título originario registrado sin restricciones",
+      "hasIndependentFolio": true,
+      "freeOfEncumbrances": true,
+      "potLandUse": "Agropecuario y Forestal sostenible"
+    },
+    "featured": true,
+    "status": "en_venta",
+    "statusLabel": "En Venta",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "highlights": [
+      "45 hectáreas productivas",
+      "Aguas vivas todo el año",
+      "Infraestructura ganadera completa",
+      "Corredor agroindustrial de alta demanda"
+    ],
+    "tags": ["Llanos Orientales", "Ganadería", "Agroindustria", "Riqueza Hídrica"]
+  },
+  {
+    "id": "prop-04",
+    "slug": "lote-comercial-corredor-chia-cajica",
+    "title": "Lote Comercial e Industrial Milla de Oro",
+    "shortDescription": "Frente comercial de 48 metros sobre la autopista Chía - Cajicá. Ideal para concesionario, sede corporativa o centro médico.",
+    "fullDescription": "Ubicación estratégica inmejorable sobre uno de los corredores comerciales de mayor tráfico del país. Terreno esquinero plano con doble frente a vía principal y secundaria. Uso de suelo institucional y comercial tipo 3 aprobado por curaduría. Disponibilidad inmediata de servicios de alta capacidad: acueducto industrial, alcantarillado pluvial y subestación eléctrica cercana.",
+    "categorySlug": "comercial",
+    "categoryName": "Terreno Comercial",
+    "location": {
+      "department": "Cundinamarca",
+      "municipality": "Chía",
+      "veredaOrSector": "Autopista Chía - Cajicá (Milla de Oro)",
+      "distanceFromMainCity": "15 min de Bogotá Calle 170",
+      "altitudeMeters": 2562
+    },
+    "areaHectares": 0.8,
+    "areaSquareMeters": 8000,
+    "priceCOP": 3600000000,
+    "pricePerSquareMeterCOP": 450000,
+    "pricePerHectareCOP": 4500000000,
+    "topography": "plana",
+    "topographyLabel": "100% Plana",
+    "accessRoad": "doble_calzada",
+    "accessRoadLabel": "Doble Calzada Nacional",
+    "utilities": {
+      "waterSource": "Red pública Emserchía con acometida de 2 pulgadas",
+      "hasElectricity": true,
+      "hasWater": true,
+      "hasInternetFiber": true,
+      "gasType": "Gas Natural Industrial"
+    },
+    "legal": {
+      "deedStatus": "Escritura pública en notaría de Chía",
+      "hasIndependentFolio": true,
+      "freeOfEncumbrances": true,
+      "potLandUse": "Comercial, Institucional y Logístico"
+    },
+    "featured": true,
+    "status": "en_venta",
+    "statusLabel": "En Venta",
+    "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "highlights": [
+      "Frente directo a autopista principal",
+      "Uso de suelo comercial e industrial",
+      "Tráfico vehicular de +30.000 vehículos/día",
+      "Listo para radicación de proyecto"
+    ],
+    "tags": ["Comercial", "Milla de Oro", "Chía", "Alto Tráfico"]
+  },
+  {
+    "id": "prop-05",
+    "slug": "finca-cafetera-mirador-del-quindio",
+    "title": "Finca Cafetera y Ecoturística Los Samanes",
+    "shortDescription": "4.2 Hectáreas sembradas en café especial variedad Geisha y plátano, con vista al valle y casa colonial restaurada.",
+    "fullDescription": "Enclavada en las montañas del Paisaje Cultural Cafetero, declarado Patrimonio de la Humanidad por la UNESCO. Terreno con microclima privilegiado, senderos biológicos y 12.000 árboles de café en producción activa. Incluye beneficiadero ecológico tecnificado y casa campestre tradicional de guadua y teja de barro perfecta para glamping o boutique hotel.",
+    "categorySlug": "agricola",
+    "categoryName": "Terreno Agrícola",
+    "location": {
+      "department": "Quindío",
+      "municipality": "Circasia",
+      "veredaOrSector": "Vereda Villarazo",
+      "distanceFromMainCity": "15 min de Armenia / 20 min de Filandia",
+      "altitudeMeters": 1640
+    },
+    "areaHectares": 4.2,
+    "areaSquareMeters": 42000,
+    "priceCOP": 890000000,
+    "pricePerSquareMeterCOP": 21190,
+    "pricePerHectareCOP": 211904761,
+    "topography": "ondulada_suave",
+    "topographyLabel": "Ondulada Cafetera Tradicional",
+    "accessRoad": "placa_huella",
+    "accessRoadLabel": "Placa Huella en excelente estado",
+    "utilities": {
+      "waterSource": "Acueducto veredal + dos nacimientos protegidos",
+      "hasElectricity": true,
+      "hasWater": true,
+      "hasInternetFiber": true,
+      "gasType": "Gas pipeta"
+    },
+    "legal": {
+      "deedStatus": "Escritura pública en notaría de Circasia",
+      "hasIndependentFolio": true,
+      "freeOfEncumbrances": true,
+      "potLandUse": "Agroturístico y Rural Agrícola"
+    },
+    "featured": true,
+    "status": "en_venta",
+    "statusLabel": "En Venta",
+    "imageUrl": "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?q=80&w=1200&auto=format&fit=crop",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "highlights": [
+      "Café especial en plena producción",
+      "Potencial para Glamping o Hotel boutique",
+      "Aguas propias protegidas",
+      "A minutos de Filandia y Salento"
+    ],
+    "tags": ["Eje Cafetero", "Café Especial", "Ecoturismo", "Patrimonio UNESCO"]
+  },
+  {
+    "id": "prop-06",
+    "slug": "macrolote-expansion-sopo-guasca",
+    "title": "Macrolote de Inversión Valle de Guasca",
+    "shortDescription": "12 Hectáreas en zona de alta valorización por nuevo corredor vial perimetral, ideal para parcelación o banco de tierras.",
+    "fullDescription": "Ubicado en el hermoso valle interandino entre Sopó y Guasca. Terreno con frente a vía secundaria en proceso de pavimentación. Zona caracterizada por una valorización sostenida superior al 18% anual en los últimos 4 años. Apto para estructuración de parcelación campestre en lotes de 2.500 m² o preservación de capital institucional.",
+    "categorySlug": "inversion",
+    "categoryName": "Terreno de Inversión",
+    "location": {
+      "department": "Cundinamarca",
+      "municipality": "Guasca",
+      "veredaOrSector": "Vereda Santa Bárbara",
+      "distanceFromMainCity": "40 min de Bogotá",
+      "altitudeMeters": 2680
+    },
+    "areaHectares": 12,
+    "areaSquareMeters": 120000,
+    "priceCOP": 2400000000,
+    "pricePerSquareMeterCOP": 20000,
+    "pricePerHectareCOP": 200000000,
+    "topography": "ondulada_suave",
+    "topographyLabel": "Ondulada Suave",
+    "accessRoad": "placa_huella",
+    "accessRoadLabel": "Placa Huella y Vía Veredal",
+    "utilities": {
+      "waterSource": "Derecho a acueducto veredal y concesión de quebrada",
+      "hasElectricity": true,
+      "hasWater": true,
+      "hasInternetFiber": true,
+      "gasType": "En trámite"
+    },
+    "legal": {
+      "deedStatus": "Escritura pública 100% libre de gravámenes",
+      "hasIndependentFolio": true,
+      "freeOfEncumbrances": true,
+      "potLandUse": "Suelo rural de protección y parcelación campestre condicionada"
+    },
+    "featured": true,
+    "status": "en_venta",
+    "statusLabel": "En Venta",
+    "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "highlights": [
+      "12 hectáreas estratégicas",
+      "Alta plusvalía proyectada (+18% anual)",
+      "Factibilidad de parcelación campestre",
+      "Hermosa vista 360° al valle"
+    ],
+    "tags": ["Inversión", "Macrolote", "Plusvalía", "Sopó - Guasca"]
+  },
+  {
+    "id": "prop-07",
+    "slug": "lote-villa-de-leyva-los-olivos",
+    "title": "Lote Campestre Valle de los Olivos",
+    "shortDescription": "2.000 m² planos con vista al cerro de Iguaque y clima seco saludable a 7 minutos de la plaza mayor de Villa de Leyva.",
+    "fullDescription": "Exclusivo lote en conjunto cerrado campestre de tradición en Villa de Leyva. El condominio cuenta con vías empedradas coloniales, alumbrado solar tenue y vigilancia privada. Conexión subterránea de servicios públicos para no contaminar la visual del paisaje. Clima cálido y seco con cielo despejado la mayor parte del año.",
+    "categorySlug": "residencial",
+    "categoryName": "Terreno Residencial",
+    "location": {
+      "department": "Boyacá",
+      "municipality": "Villa de Leyva",
+      "veredaOrSector": "Vereda Roble Alto",
+      "distanceFromMainCity": "7 min de la Plaza Mayor / 2.5h de Bogotá",
+      "altitudeMeters": 2140
+    },
+    "areaHectares": 0.2,
+    "areaSquareMeters": 2000,
+    "priceCOP": 380000000,
+    "pricePerSquareMeterCOP": 190000,
+    "pricePerHectareCOP": 1900000000,
+    "topography": "plana",
+    "topographyLabel": "100% Plana",
+    "accessRoad": "pavimentada",
+    "accessRoadLabel": "Pavimento + Empedrado Colonial",
+    "utilities": {
+      "waterSource": "Red del condominio con planta de potabilización propia",
+      "hasElectricity": true,
+      "hasWater": true,
+      "hasInternetFiber": true,
+      "gasType": "Gas propano instalado"
+    },
+    "legal": {
+      "deedStatus": "Escritura pública independiente",
+      "hasIndependentFolio": true,
+      "freeOfEncumbrances": true,
+      "potLandUse": "Residencial Campestre Unifamiliar"
+    },
+    "featured": false,
+    "status": "en_venta",
+    "statusLabel": "En Venta",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "highlights": [
+      "A 7 minutos de la plaza colonial",
+      "Condominio con normas arquitectónicas",
+      "Servicios subterráneos terminados",
+      "Vista directa al santuario de Iguaque"
+    ],
+    "tags": ["Villa de Leyva", "Boyacá", "Descanso", "Patrimonio"]
+  },
+  {
+    "id": "prop-08",
+    "slug": "lote-industrial-parque-yumbo",
+    "title": "Lote Industrial y Logístico Parque Yumbo",
+    "shortDescription": "1.5 Hectáreas totalmente niveladas en parque industrial con báscula y seguridad pesada cerca a Cali.",
+    "fullDescription": "Localizado en el principal clúster industrial del occidente colombiano, en Yumbo, Valle del Cauca. Terreno acondicionado con capa de afirmado compactado de alta resistencia para patio de contenedores o construcción de naves logísticas. Acceso inmediato a la carretera Cali - Yumbo y cercanía al Aeropuerto Alfonso Bonilla Aragón.",
+    "categorySlug": "comercial",
+    "categoryName": "Terreno Comercial",
+    "location": {
+      "department": "Valle del Cauca",
+      "municipality": "Yumbo",
+      "veredaOrSector": "Parque Industrial Pízamos",
+      "distanceFromMainCity": "10 min del norte de Cali",
+      "altitudeMeters": 1005
+    },
+    "areaHectares": 1.5,
+    "areaSquareMeters": 15000,
+    "priceCOP": 2750000000,
+    "pricePerSquareMeterCOP": 183333,
+    "pricePerHectareCOP": 1833333333,
+    "topography": "plana",
+    "topographyLabel": "100% Plana Nivelada",
+    "accessRoad": "doble_calzada",
+    "accessRoadLabel": "Doble Calzada Tráfico Pesado",
+    "utilities": {
+      "waterSource": "Red industrial de Emcali",
+      "hasElectricity": true,
+      "hasWater": true,
+      "hasInternetFiber": true,
+      "gasType": "Gas Natural Industrial Gases de Occidente"
+    },
+    "legal": {
+      "deedStatus": "Escritura pública en notaría de Cali",
+      "hasIndependentFolio": true,
+      "freeOfEncumbrances": true,
+      "potLandUse": "Industrial de alto impacto y logística"
+    },
+    "featured": false,
+    "status": "en_venta",
+    "statusLabel": "En Venta",
+    "imageUrl": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop",
+    "galleryUrls": [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200&auto=format&fit=crop"
+    ],
+    "highlights": [
+      "Suelo industrial de alto impacto",
+      "Suelo compactado para carga pesada",
+      "Red trifásica de alta capacidad",
+      "Excelente conexión al Puerto de Buenaventura"
+    ],
+    "tags": ["Yumbo", "Logística", "Industrial", "Valle del Cauca"]
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "test-01",
+    "authorName": "Carlos Eduardo Restrepo",
+    "role": "Inversionista Particular",
+    "location": "Medellín, Antioquia",
+    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+    "rating": 5,
+    "quote": "Buscaba un terreno en Llanogrande con seguridad jurídica absoluta. LandSelling me acompañó desde el estudio de títulos hasta la firma en notaría. En 2 años el lote se ha valorizado más del 30%.",
+    "propertyPurchased": "Parcela Altos de Llanogrande",
+    "propertyArea": "3.500 m²",
+    "year": 2024
+  },
+  {
+    "id": "test-02",
+    "authorName": "Dra. María Fernanda Gómez",
+    "role": "Compradora Residencial",
+    "location": "Bogotá D.C.",
+    "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop",
+    "rating": 5,
+    "quote": "Construir nuestra casa campestre en La Calera era el sueño de mi familia. La claridad en los planos topográficos, disponibilidad real de servicios y respuesta por WhatsApp nos dio total tranquilidad.",
+    "propertyPurchased": "Lote Campestre Reserva El Roble",
+    "propertyArea": "5.000 m² (0.5 ha)",
+    "year": 2025
+  },
+  {
+    "id": "test-03",
+    "authorName": "Ing. Gustavo Adolfo Silva",
+    "role": "Gerente de Agrodesarrollos del Llano",
+    "location": "Villavicencio, Meta",
+    "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+    "rating": 5,
+    "quote": "Adquirimos 45 hectáreas para ganadería sostenible en Puerto López. Todo el inventario de fuentes hídricas y concesiones ambientales coincidió al 100% con la realidad en campo. Servicio impecable.",
+    "propertyPurchased": "Hacienda Agrícola La Esperanza",
+    "propertyArea": "45 Hectáreas",
+    "year": 2024
+  },
+  {
+    "id": "test-04",
+    "authorName": "Valentina Casasbuenas",
+    "role": "Emprendedora Ecoturística",
+    "location": "Armenia, Quindío",
+    "avatarUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&auto=format&fit=crop",
+    "rating": 5,
+    "quote": "Montamos nuestro proyecto de glamping de café especial en Circasia gracias a la asesoría técnica de LandSelling. Tienen los mejores lotes con vocación turística del Eje Cafetero.",
+    "propertyPurchased": "Finca Cafetera Los Samanes",
+    "propertyArea": "4.2 Hectáreas",
+    "year": 2025
+  }
+]

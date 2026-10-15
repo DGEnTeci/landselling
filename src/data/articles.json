@@ -1,0 +1,41 @@
+[
+  {
+    "id": "art-01",
+    "slug": "guia-certificado-tradicion-libertad-terrenos",
+    "title": "Cómo leer el Certificado de Tradición y Libertad antes de comprar un lote",
+    "excerpt": "Aprende a identificar falsas tradiciones, embargos, hipotecas y afectaciones a vivienda familiar para blindar tu inversión jurídica en Colombia.",
+    "category": "Seguridad Jurídica",
+    "readTimeMinutes": 6,
+    "publishedAt": "12 de Octubre, 2026",
+    "authorName": "Dr. Fernando Morales",
+    "authorRole": "Especialista en Derecho Inmobiliario",
+    "coverImageUrl": "https://images.unsplash.com/photo-1450133064473-71024230f91b?q=80&w=1000&auto=format&fit=crop",
+    "tags": ["Legal", "Títulos", "Consejos"]
+  },
+  {
+    "id": "art-02",
+    "slug": "topografia-servicios-publicos-parcelaciones-rurales",
+    "title": "Topografía y servicios públicos: Qué evaluar en una visita a un lote campestre",
+    "excerpt": "Diferencias clave entre agua de acueducto veredal vs. nacedero propio, costos de explanación y cómo verificar la viabilidad de energía y fibra óptica.",
+    "category": "Guía Técnica",
+    "readTimeMinutes": 8,
+    "publishedAt": "28 de Septiembre, 2026",
+    "authorName": "Ing. Camila Zuluaga",
+    "authorRole": "Topógrafa y Consultora de Suelos",
+    "coverImageUrl": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=1000&auto=format&fit=crop",
+    "tags": ["Topografía", "Servicios", "Construcción"]
+  },
+  {
+    "id": "art-03",
+    "slug": "plusvalia-y-rentabilidad-tierras-colombia-2026",
+    "title": "Por qué la tierra rural supera en rentabilidad al ladrillo urbano en 2026",
+    "excerpt": "Análisis comparativo de valorización: cómo las nuevas vías 4G y la descentralización del trabajo impulsan la plusvalía de parcelaciones entre 15% y 22% anual.",
+    "category": "Inversión y Finanzas",
+    "readTimeMinutes": 5,
+    "publishedAt": "15 de Septiembre, 2026",
+    "authorName": "Sebastián Valderrama",
+    "authorRole": "Analista de Mercados Inmobiliarios",
+    "coverImageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1000&auto=format&fit=crop",
+    "tags": ["Plusvalía", "Finanzas", "Tendencias"]
+  }
+]
