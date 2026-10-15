@@ -153,10 +153,18 @@
   - **Archivos:** `src/app/page.tsx`, `src/app/layout.tsx`, `src/components/layout/SkipLink.tsx`, `tests/unit/accessibility-audit.test.tsx`.
   - **Verificación:** `npm run build` y `npm test`.
 
-- [ ] **Task 14: Documentación y Guía de Despliegue (`README.md`)**
+- [x] **Task 14: Documentación y Guía de Despliegue (`README.md`)**
   - **Descripción:** Redactar un `README.md` completo con descripción de arquitectura, guía de instalación local, scripts y guía de despliegue en Vercel.
   - **Criterios de Aceptación:**
     - Instrucciones claras paso a paso.
     - Variables de entorno documentadas de forma segura.
   - **Archivos:** `README.md`.
   - **Verificación:** Revisión de markdown y formato.
+
+### 🚩 Checkpoint 5: Proyecto Completo y Listo para Producción
+- [x] 100% de las 14 tareas implementadas y verificadas.
+- [x] 129 pruebas unitarias e integradas pasando en Vitest sin fallos.
+- [x] Compilación de producción con Next.js 15 App Router exitosa (`npm run build`).
+- [x] Cero errores de TypeScript (`npx tsc --noEmit`).
+- [x] Documentación exhaustiva en `README.md` y variables en `.env.example`.
+
