@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-cream-50 text-slate-900 font-sans antialiased;
+    selection-background-color: #059669;
+    selection-color: #ffffff;
+  }
+
+  /* Reducir movimiento si el usuario lo prefiere */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}

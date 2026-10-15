@@ -7,7 +7,7 @@
 
 ## Fase 1: Cimientos, Datos y Lógica Pura (TDD)
 
-- [ ] **Task 1: Scaffolding inicial del proyecto**
+- [x] **Task 1: Scaffolding inicial del proyecto**
   - **Descripción:** Configurar `package.json`, Next.js 15 App Router, React 19, TypeScript estricto, Tailwind CSS con paleta forest/emerald/cream, Vitest y React Testing Library.
   - **Criterios de Aceptación:**
     - Repositorio compila sin errores.
@@ -15,6 +15,7 @@
     - Vitest ejecuta suites con entorno `jsdom`.
   - **Archivos:** `package.json`, `tsconfig.json`, `tailwind.config.ts`, `vitest.config.ts`, `postcss.config.mjs`, `src/app/globals.css`.
   - **Verificación:** `npm run build` y `npm test`.
+
 
 - [ ] **Task 2: Modelos de datos y catálogo de propiedades**
   - **Descripción:** Crear interfaces TypeScript en `src/types/` y datos estructurados en `src/data/` para lotes, categorías, artículos y testimonios colombianos.
